@@ -2,7 +2,7 @@
 
 class conexion extends mysqli
 {
-    private $mysqli;
+    public $mysqli;
     private $servidor;
     private $usuario;
     private $clave;
@@ -24,8 +24,6 @@ class conexion extends mysqli
         $this->mysqli = new mysqli($this->servidor, $this->usuario, $this->clave, $this->database);
         if ($this->mysqli->connect_errno) {
             echo "Fallo al conectar a MySQL: (" . $this->mysqli->connect_errno . ") " . $this->mysqli->connect_error;
-        } else {
-            echo "Conectado";
         }
     }
 }
