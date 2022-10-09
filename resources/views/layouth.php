@@ -15,7 +15,7 @@ if (!isset($_SESSION['usuario'])) {
     <script src="../../public/js/jquery.js"></script>
     <script src="../../public/js/scripts.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
 </head>
 
 <body>

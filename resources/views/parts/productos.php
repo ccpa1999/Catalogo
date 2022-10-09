@@ -1,4 +1,4 @@
-<?php if (isset($_SESSION['usuario'])) : ?>
+<?php session_start(); if (isset($_SESSION['usuario'])) : ?>
     <div class="row">
         <p>
             <a class="btn btn-success" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
